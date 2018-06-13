@@ -1,0 +1,62 @@
+
+<html>
+	<head>
+		<title>Clause annotation editor</title>
+		<link rel="stylesheet" type="text/css" href="clause.css"/>
+
+		<script src="clauseAnnotate.js"> </script>
+		
+
+	</head>
+	<body>
+			
+		<span id="menu">
+        	<div class="button" style="font-weight: bold; text-align: center">Actions</div>
+         	<div class="button" onmouseover="this.style.background='#9f9f9f'" onclick="addNewClause(cnum++)" onmouseout="this.style.background='#c0c0c0'">Add Clause</div>
+         	<div class="button" onmouseover="this.style.background='#9f9f9f'" onclick="output(DOMOutput())" onmouseout="this.style.background='#c0c0c0'">Output</div>
+         	<div class="button" onmouseover="this.style.background='#9f9f9f'" onclick="postXML()" onmouseout="this.style.background='#c0c0c0'">Submit</div>
+      	</span>
+      
+      	<div id="words">
+			<span>
+			
+			
+			<span class="grk" id="w1" >
+				<span class="wid">w1</span>
+		 			WORD
+		 	</span>
+		 	
+				<span class="grk" id="w2" >
+				<span class="wid">w2</span>
+		 			WORD
+		 	</span>
+		 				<span class="grk" id="w3" >
+				<span class="wid">w3</span>
+		 			WORD
+		 	</span>	 	
+		 </span>
+			
+			
+			</span>
+		</div>
+	
+		<div id="clauses">			
+		
+		</div>	
+		
+		
+				<script>
+			bookid = 'test';
+			chnum = 1;
+			
+			
+			
+			var clauses = document.getElementById('clauses');
+			function addNewClause() {
+				new_clause = createClause(1);
+				clauses.insertBefore(new_clause,clauses.lastChild);
+			}
+		</script>
+			
+	</body>
+</html>
