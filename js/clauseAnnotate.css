@@ -1,0 +1,88 @@
+
+
+.grk	{
+		font-size: 14px; 
+		margin-right: 5px; 
+		font-family: Athena, 'Georgia Greek';
+	}
+
+td	{
+		vertical-align: top; 
+		text-align: left;
+	}
+
+table	{
+		margin-top: 5px; 
+		text-align: left;  
+		margin-left: 4px;
+	}
+
+#words {
+		border-right: 4px outset; 
+		padding-right: 4pt; 
+		border-top: 4px outset; 
+		padding-left: 4pt; 
+		left: 10px; 
+		padding-bottom: 4pt;
+		border-left: 4px outset; 
+		width: 500px; 
+		padding-top: 4pt;
+		border-bottom: 4px outset; 
+		position: absolute; top: 10px;
+		background-color: #e0e0e0; height: 100px;
+		overflow: auto;
+	}
+
+#menu	{
+		left: 600px; 
+		width: 95px; 
+		border-top-style: outset; 
+		border-right-style: outset; 
+		border-left-style: outset; 
+		position: absolute; 
+		top: 10px; 
+		background-color: #e0e0e0; 
+		border-bottom-style: outset; 
+		4px: 10px;
+	}
+
+.id	{
+		font-size: 9px; 
+		vertical-align: middle; 
+		color: red; 
+		margin-right: 2px; 
+		font-family: verdana, arial, sans; 
+		text-decoration: underline;
+	}
+
+.button {
+		border-right: 2px groove; 
+		border-top: 2px groove; 
+		font-size: 12px; 
+		margin: 5px; 
+		border-left: 2px groove; 
+		width: 85px; 
+		border-bottom: 2px groove; 
+		font-family: verdana, arial, sans; 
+		height: 18px; 
+		background-color: #c0c0c0;
+	}		
+
+#clauses {
+		overflow: scroll; 
+		width: 750px; height: 300px;
+		position: absolute; 
+		top: 120px; 
+		border: solid 4px double;
+		padding: 4px;
+	}
+
+select	{	font-size: 8pt; 
+		background-color: #a0a0a0;
+	}
+
+form	{ 
+		font-size: 8pt;
+		margin-top: 0px; 
+		margin-bottom: 0px;
+	}

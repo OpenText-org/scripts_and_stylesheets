@@ -1,0 +1,55 @@
+
+
+				body { margin: 0px; font-family: Arial; font-size: 8pt; }
+					
+						
+						
+						.clauseText { 
+												
+								white-space: nowrap;
+								font-family: 'Palatino Unicode', Cardo, 'Georgia Greek', Athena;
+								font-size: 9pt;
+								 margin-bottom: 6pt;
+						}
+						
+						.headings { font-size: 8pt; }
+						
+						.comp { font-family: Arial; margin-left: 2pt;  }
+						.clcomp { font-family: Arial; }
+						.emdivider { font-size: 9pt; color: #a0a0a0; vertical-align: middle; }
+						.label { vertical-align: middle; font-size: 7pt; color: #0000DD; margin-right: 2pt; }
+						.emlabel { vertical-align: middle; font-size: 7pt; color: #00DD00;; margin-right: 2pt; }
+						.divider { font-size: 12pt; color: #505050; }
+						
+						.compspan { white-space: nowrap; }
+						
+
+
+
+#participants { position: absolute;
+	        top: 10px;
+		left: 70%;
+		width: 25%;
+		border: outset 4px #a0a0a0;
+		}
+
+#words { position: absolute;
+         top: 10px;
+	 left: 10px;
+	 width: 68%;
+	 border: double 4px black;
+	 overflow: auto;
+	 height: 95%;
+	 padding: 10px;
+       }
+
+.grk { font-family: Palatino Linotype, 'Georgia Greek'; font-size: 10pt;}
+
+.partTag { 		background-color: #d0d0d0;
+		 font-family: Arial;
+		color: red;
+		font-size: 10px;
+		vertical-align: top;
+}
+
+.plabel { font-weight: bold; text-decoration: underline; }

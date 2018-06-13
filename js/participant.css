@@ -1,0 +1,20 @@
+
+
+#participants { position: absolute;
+	        top: 10px;
+		left: 70%;
+		width: 25%;
+		border: outset 4px #a0a0a0;
+		}
+
+#words { position: absolute;
+         top: 10px;
+	 left: 10px;
+	 width: 68%;
+	 border: double 4px black;
+	 overflow: auto;
+	 height: 95%;
+	 padding: 10px;
+       }
+
+.grk { font-family: 'Georgia Greek'}

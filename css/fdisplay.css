@@ -1,0 +1,694 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title : 
+Author : 
+URL : 
+
+Description : 
+
+Created : 
+Modified : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* ----- CSS ----- */
+
+*{
+margin:;
+padding:;
+/* font-family: trebuchet ms, verdana, sans-serif; */
+}
+html{
+margin:;
+padding:;
+background:;
+}
+body{
+margin: 0px;
+padding: 0px;
+background:;
+font-size: medium;
+}
+
+/* ----- Verse Styles ----- */
+
+.vtable th {
+  font-size: 0.9em;
+  font-weight: normal;
+  width: 1.5em;
+  text-align: left;
+  color: #600;
+  line-height: 1.6em;
+}
+.vtxt {
+  margin: 0 0 0 0;
+  font-size: 0.9em;
+  line-height: 1.6em;
+}
+.vtrig img {
+  padding: 3px 0 0 0;
+}
+
+.comment textarea {
+  width: 100%;
+  height: 2.5em;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* -------- Verse Options ------- */
+.opt {
+   position: relative;
+   font-size: 8pt;
+   text-align: right;
+   background-color: #eee;
+}
+.opt a {font-size: x-small;}
+.opt-l {
+  width: 200px;
+  position: absolute; 
+  text-align: left;
+  font-size: x-small;
+}
+.opt div {
+  display: inline;
+}
+.opt {padding: 6px;}
+.trig-save {
+   border: 1px outset #CBF7CB;
+   background-color: #CBF7CB;
+   padding: 3px;
+   margin: 0 0 0 15px;
+   cursor: pointer;
+}
+.trig-add {
+   text-decoration: underline;
+   color: blue;
+   cursor: pointer;
+}
+
+.rnote {
+  background-color: #DBEDED;
+  padding: 3px;
+  font-size: small;
+  margin: 0 0 0 20px;
+ 
+}
+
+/* --------- Navigation ---------- */
+#navigation a {padding: 6px;}
+
+#emailform {
+  padding: 10px;
+  background-color: #efffff;
+  border: 3px solid #eee;
+}
+
+
+/* ----- IDS ----- */
+
+#bar {
+   background-color: #32557F;
+}
+
+#header{
+   display: block;
+   margin: 0.5em 1em 1em 0;
+}
+
+#logo {
+    font-size: 2.5em;
+   font-weight: bold;
+   color: #333;
+}
+
+#container{
+width: 600px;
+margin: 0 auto;
+padding:;
+background:;
+text-align:;
+}
+#primaryContent{
+position:;
+float: left;
+width: 500px;
+margin:;
+padding:;
+background:;
+text-align:;
+}
+#secondaryContent{
+position:;
+float:;
+width:;
+margin:;
+padding:;
+background:;
+text-align:;
+}
+#navigation{
+margin:;
+padding:;
+}
+#footer{
+margin:;
+padding:;
+clear:;
+}
+
+/* ----- CLASSES ----- */
+
+.hide{
+/* display:none; */
+}
+.show{
+/* display:block; */
+}
+
+/* ----- HEADINGS ----- */
+
+h1{
+font:;
+font-size: 1.5em;
+font-weight: normal;
+color: #700;
+margin: 0px;
+padding:;
+}
+h2{
+font:;
+font-size: medium;
+font-weight:;
+color: #700;
+margin: 1em 0 0 0;
+padding:;
+}
+h3{
+font:;
+font-size:;
+font-weight:;
+color:;
+margin:;
+padding:;
+}
+h4{
+font:;
+font-size:;
+font-weight:;
+color:;
+margin:;
+padding:;
+}
+
+/* ----- PARAGRAPHS ----- */
+
+p{
+font:;
+color:;
+
+font-size:;
+font-family:;
+font-style:;
+font-weight:;
+font-variant:;
+
+text-align:;
+text-indent:;
+text-decoration:;
+text-shadow:;
+text-transform:;
+
+letter-spacing:;
+word-spacing:;
+}
+#primaryContent p{
+}
+#secondaryContent p{
+}
+
+/* ----- QUOTES ----- */
+
+blockquote{
+margin:;
+padding:;
+background-color:;
+font:;
+color:;
+}
+blockquote p{
+}
+cite{
+font:;
+color:;
+}
+blockquote cite{
+}
+
+/* ----- CODE ----- */
+
+pre{
+margin:;
+padding:;
+background-color:;
+border:;
+font-size:;
+overflow:;
+}
+code{
+font-size:;
+}
+p code{
+}
+pre code{
+}
+
+/* ----- LISTS ----- */
+
+li{
+list-style:;
+
+list-style-type:;
+list-style-image:;
+list-style-position:;
+float:;
+margin:;
+padding:;
+}
+li p{
+}
+ol{
+width:;
+margin:;
+padding:;
+}
+ul{
+width:;
+margin:;
+padding:;
+}
+ol li{
+}
+ul li{
+}
+
+#navigation li{
+}
+
+#navigation ul{
+}
+
+#navigation ul li{
+}
+
+#navigation ol{
+}
+
+#navigation ol li{
+}
+
+/* ----- IMAGES ----- */
+
+img{
+border: 0px;
+}
+img a{
+border:;
+text-decoration:;
+}
+img a:hover{
+border:;
+}
+
+/* BREAK */
+
+hr{
+  display:none;
+}
+
+/* ----- TEXT FORMATTING ----- */
+
+strong{
+}
+em{
+}
+b{
+}
+i{
+}
+
+/* ----- LINKS ----- */
+
+a{
+font:;
+color:;
+text-decoration:;
+border-bottom:;
+}
+a:hover{
+color:;
+background-color:;
+border-bottom:;
+}
+a:visited, a:active, a:focus{
+color:;
+background-color:;
+border-bottom:;
+}
+a:visited{
+color:;
+background-color:;
+border-bottom:;
+}
+a:active{
+color:;
+background-color:;
+border-bottom:;
+}
+a:focus{
+color:;
+background-color:;
+border-bottom:;
+}
+
+p a{
+}
+cite a{
+}
+li a{
+}
+dt a{
+}
+dd a{
+}
+
+/* ----- TABLES ----- */
+
+table{
+width:;
+margin:;
+padding:;
+frame:;
+text-align:;
+}
+caption{
+font:;
+color:;
+position:;
+text-align:;
+display:;
+}
+thead{
+font:;
+color:;
+text-align:;
+background-color:;
+margin:;
+padding:;
+}
+tbody{
+font:;
+color:;
+text-align:;
+background-color:;
+margin:;
+padding:;
+}
+tfoot{
+font:;
+color:;
+text-align:;
+background-color:;
+margin:;
+padding:;
+}
+tr{
+font:;
+color:;
+background-color:;
+}
+tr .alt{
+font:;
+color:;
+background-color:;
+}
+th{
+}
+td{
+width:;
+margin:;
+padding:;
+}
+
+td, th { vertical-align: top;}
+
+/* ----- FORMS ----- */
+
+form{
+width:;
+margin:;
+padding:;
+}
+fieldset{
+border:;
+width:;
+margin:;
+padding:;
+}
+legend{
+font:;
+color:;
+margin:;
+padding:;
+}
+label{
+margin:;
+padding:;
+font-size:;
+font-family:;
+}
+input{
+border:;
+margin:;
+padding:;
+font-size:;
+font-family:;
+}
+textarea{
+border:;
+margin:;
+padding:;
+font-size:;
+font-family:;
+}
+input, textarea{
+}
+select{
+border:;
+margin:;
+padding:;
+font-size:;
+font-family:;
+}
+optgroup{
+font:;
+}
+option{
+font:;
+}
+
+/* ----- DEFINITIONS ----- */
+
+dl{
+font-size:;
+margin:;
+padding:;
+}
+dt{
+color:;
+margin:;
+padding:;
+}
+dd{
+color:;
+margin:;
+padding:;
+}
+
+/* ---- Bible Chapter Lookup ---- */
+   #trig-lookup  {padding: 6px 6px 3px 6px;}
+	.selected {background-color: #eee}
+	.bookname {font-size: small;}
+	a.bookname {
+		display:block; padding: 1px 2px 1px 2px; 
+		text-decoration: none;
+		color: #339;
+		}
+	a.bookname:hover {background-color: #fff; text-decoration: underline}
+	
+	.key {border: 1px solid grey; width:20px}
+	
+	a.chapternum, a.rangenum {
+		display:block; border: 1px solid #ccc; 
+		padding: 3px; margin:3px;
+		text-decoration:none; 
+		text-align:center; 
+		width: 15px;
+		background-color: #FFFFCC;
+		color: #339;
+	}
+	a.chapternum:hover, a.rangenum:hover {background-color:white;}
+	a.rangenum {width: 50px;}
+	#lookup h2 {
+		color: #666; 
+		margin: 0 0 5px 0; padding:0;
+		font-size:medium; 
+		border-bottom: 2px solid #999
+	}
+	.books {background-color: #fff}
+	.chapters {background-color:#eee}
+	.panel {border: 3px solid #eee;}
+	
+	.container {width:545px;}
+
+.login { float: right; }
+
+
+/* ---------------- 
+	FUNCTION DISPLAY STYLE DEFINITIONS 
+-------- */
+
+#control { background-color: #f0f0f0; margin: 1px; padding: 2px; border: 1px #707070 solid; }
+
+#range label { text-align: center; font-weight: bold;}
+
+#range {  font-size: 10pt; padding-right: 20pt;}
+
+#systems { padding-left: 20pt; }
+
+#textWindow { position: relative; overflow: auto; height: 80%; }
+
+
+/* --- 
+   styles for textual window
+-- */
+
+body { margin: 0px; font-family: Arial; font-size: 8pt; }
+		.ftm { font-size: 12pt; font-weight: bold; border-left: 1px solid #909090;}
+						
+						.vnum { font-size: 10pt; font-weight: bold; vertical-align: top; border: 0}
+					
+						.cid { font-size: 7pt; vertical-align: top; border: 0; color: #202020;}
+						
+						.texttd { border: 0 }
+						
+						td { border-top: solid 1px #f0f0f0; }
+						
+						.subgroup { border-left: 1px solid #909090; font-size: 7pt; vertical-align: middle;}
+						
+						.grk { font-family: 'Palatino Linotype', Cardo, 'Georgia Greek', Athena; font-size: 10pt;}
+						
+						.clauseText { 
+						
+								 margin-left: 50pt; text-indent: -50pt; 
+					 
+								
+								font-family: 'Palatino Linotype', Cardo, 'Georgia Greek', Athena;
+								font-size: 10pt;
+								 border-top: solid 1px #f0f0f0;
+						}
+						
+						table { border-collapse: collapse; } 
+						
+						.headings { font-size: 7pt; }
+						
+						.headings th { vertical-align: bottom;}
+						
+						.comp { font-family: Arial; margin-left: 2pt;  }
+						.clcomp { font-family: Arial; }
+						.emdivider { font-size: 9pt; color: #a0a0a0; vertical-align: middle; }
+						.label { vertical-align: middle; font-size: 7pt; color: #0000DD; margin-right: 2pt; }
+
+						.emlabel { vertical-align: middle; font-size: 7pt; color: #00DD00;; margin-right: 2pt; }
+						.divider { font-size: 12pt; color: #505050; }
+						
+						.compspan {
+						
+	 }
+						
+						.asp-pf, .cause-act, .att-ass, .polarity-plus, .p3 { background-color: #AAAAFF; border-left: 1px solid #909090; width: 8px;}
+						.asp-ipf, .cause-pas, .att-dir, .p2 { background-color:  rgb(250,238,95); width: 10px;}
+						.asp-stat, .cause-erg, .att-exp, .polarity-, .p1 { background-color: #FF8888; width: 10px; }
+
+						.att-proj-nc { background-color: #88CCAA; width: 10px; }
+						
+						.pro-rel { background-color: #d0d0d0; border-left: 1px solid #909090;  width: 8px;}
+						.pro-ver { background-color: #d0d0d0; width: 8px; }
+						.pro-men { background-color: #d0d0d0; width: 8px; }
+						.pro-beh { background-color: #d0d0d0; width: 8px; }
+						.pro-mat { background-color: #d0d0d0; width: 8px;}
+						.pro-ext { background-color: #d0d0d0; width: 8px; }
+						
+						.pro-rel2 { background-color: #e0e0e0; border-left: 1px solid #909090;  width: 8px;}
+						.pro-ver2 { background-color: #e0e0e0; width: 8px; }
+						.pro-men2 { background-color: #e0e0e0; width: 8px; }
+						.pro-beh2 { background-color: #e0e0e0; width: 8px; }
+						.pro-mat2 { background-color: #e0e0e0; width: 8px;}
+						.pro-ext2 { background-color: #e0e0e0; width: 8px; }
+						
+							.pro-bl { border: 0; background-color: #d0d0d0; width: 8px; }
+							
+							
+						.cl-pri { background-color: #d0d0d0; border-left: 1px solid #909090;  width: 8px;}
+						 .cl-sec, .cl-emb {  background-color: #d0d0d0; width: 8px; }
+
+						.th-P { background-color: #AAAAFF; border-left: 1px solid #909090; 
+									width: 8px; font-size: 8pt;}
+						.th-S { background-color: rgb(250,238,95); }
+						.th-A { background-color: #88CCAA; } 
+						.th-C  {  background-color: #FF8888; }
+						 
+						 
+						.lc { font-size: 7pt;   vertical-align: middle; 
+							text-align: center; width: 8px;
+						}
+						.lc2 { font-size: 7pt;   text-align: center;
+							vertical-align: middle; background-color: #f8f8f8; width: 8px;}					
+							
+							
+								 .dom {  } 
+					 .domgrk { text-decoration: underline; }
+					.domgrk-conj { text-decoration: underline; background-color: #FFCCCC; }
+				/*	.conj { background-color: #FFCCCC; }   */
+					 .domnum { font-family: Arial; font-size: 7pt; vertical-align: 2pt; }
+					 
+					 .domlabel { border-left: 1px solid #f0f0f0; }
+					 
+					 tfoot th { font-size: 8pt; border-top: 2px solid #707070; }
+					
+					tfoot .subgroup { border-left: 1px solid #909090; font-size: 8pt;}
+						
+					.key-domains, .key-tenor,  .key-process, .key-field { font-size: 8pt; font-weight: normal; }
+					
+					.key-domains td, .key-tenor td, .key-process td, .key-field td { vertical-align: top; border: 0; padding-left: 1px;}
+						
+					.key-gloss { font-weight: normal; }
+					
+					.key td, .key th { vertical-align: top; }
+					
+					.key { background-color: rgb(255,240,240) }
+					
+					
+					.cl-label { font-size: 8pt; color: black}
+					
+					.norule { border: 0; }
+					
+					.keyrule { border-top: 4px double red; }
+					
+					.book-heading { font-size: 12pt; font-family: Times; text-decoration: underline; }
+						
+						
+					.indent { margin-left: 10pt; }
+					
+
+	

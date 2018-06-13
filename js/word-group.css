@@ -1,0 +1,56 @@
+
+.modifiers { display: none;}
+
+.grk { font-family: 'Georgia Greek'; font-size: 14px;
+       text-align: center;
+       display: none;
+       
+     }
+
+
+
+tbody th { 
+	 background-color: #c0c0c0;
+         vertical-align: top;
+         font-family: Arial; font-size: 10px;
+         color: blue;
+       }
+
+td { background-color: #ffffff;
+     vertical-align: top;
+   }
+       
+
+.word { background-color: #d0d0d0; 
+        border: solid 1px black;
+        text-align: center; 
+	width: 10px;
+	padding: 2px;
+      }
+
+.plus-minus { font-family: Arial; font-size: 12px;
+	      color: red
+	    }
+
+
+#menu	{
+		font-family: Verdana; font-size: 12px;
+		left: 650px; 
+		width: 95px; 
+		border-top-style: outset; 
+		border-right-style: outset; 
+		border-left-style: outset; 
+		position: absolute; 
+		top: 10px; 
+		background-color: #e0e0e0; 
+		border-bottom-style: outset; 
+		4px: 10px;
+	}
+
+#words { position: absolute;
+         top: 10px;
+	 left: 10px;
+	 overflow: auto;
+	 width: 600px;
+	 height: 400px;
+	 }
